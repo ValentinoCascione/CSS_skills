@@ -1,0 +1,732 @@
+body {
+    background: lightgreen;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background: red;
+}
+
+.circle-div {
+    width: 100%;
+    height: 140px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: slidein 3s linear 1s infinite alternate;
+}
+
+.flag-grec {
+    height: 720px;
+    width: 1206px;
+    margin-top: 20px;
+    background: white;
+    position: relative;
+}
+
+.flag-top-left {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    z-index: 1;
+    background: #0174DF;
+}
+
+.hehe {
+    height: 80px;
+    width: 100%;
+    float: top;
+}
+
+.back-blue {
+    background: #0174DF;
+}
+
+.cross1 {
+    width: 80px;
+    height: 100%;
+    background: white;
+    position: absolute; left: 160px;
+}
+
+.cross2 {
+    width: 100%;
+    height: 80px;
+    position:absolute;	bottom: 160px;
+    background: white;
+    z-index: 2;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.flag-israel {
+    height: 720px;
+    width: 1207px;
+    margin-top: 20px;
+    background: white;
+    position: relative;
+}
+
+.flag-top-israel {
+    height: 100px;
+    width: 100%;
+    background: #013ADF;
+    position: absolute; top: 0;
+    margin-top: 40px;
+}
+
+.flag-bottom-israel {
+    height: 100px;
+    width: 100%;
+    background: #013ADF;
+    position: absolute; bottom: 0;
+    margin-bottom: 40px;
+}
+
+.flag-israel-center {
+    height: 440px;
+    width: 100%;
+    background: white;
+    display: flex;
+    position: absolute; top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-div-center {
+    height: 320px;
+    width: 320px;
+    position: relative;
+}
+
+.triangle1 {
+    width: 0;
+    height: 0;
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+    border-bottom: 240px solid #013ADF;
+    display: flex;
+    justify-content: center;
+}
+
+.triangle2 {
+    width: 0;
+    height: 0;
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+    border-top: 240px solid #013ADF;
+    position: absolute; bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.triangle1-center {
+    width: 0;
+    height: 0;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 180px solid white;
+    position: absolute; bottom: 100px;
+}
+
+.triangle2-center1 {
+    width: 0;
+    height: 0;
+    border-left: 27px solid transparent;
+    border-right: 27px solid transparent;
+    border-top: 40px solid white;
+    position: absolute; bottom: 40px;
+}
+
+.triangle2-center2 {
+    width: 0;
+    height: 0;
+    border-left: 27px solid transparent;
+    border-right: 27px solid transparent;
+    border-top: 40px solid white;
+    position: absolute; bottom: 182px; right: 68px;
+}
+
+.triangle2-center3 {
+    width: 0;
+    height: 0;
+    border-left: 27px solid transparent;
+    border-right: 27px solid transparent;
+    border-top: 40px solid white;
+    position: absolute; bottom: 182px; left: 68px;
+}
+
+.triangle2-center4 {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 60px solid white;
+    position: absolute; bottom: 100px;
+}
+
+.triangle2-center5 {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 60px solid white;
+    position: absolute; bottom: 160px;
+}
+
+.triangle2-center6 {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 60px solid white;
+    position: absolute; bottom: 100px; right: -1px;
+}
+.triangle2-center7 {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 60px solid white;
+    position: absolute; bottom: 100px; left: -1px;
+}
+
+.triangle2-center8 {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 60px solid white;
+    position: absolute; bottom: 160px; left: -1px;
+}
+
+.triangle2-center9 {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 60px solid white;
+    position: absolute; bottom: 160px; right: -1px;
+}
+
+.flag-algerie {
+    height: 720px;
+    width: 1206px;
+    margin-top: 20px;
+    background: red;
+    position: relative;
+}
+
+.flag-algerie-left {
+    height: 100%;
+    width: 50%;
+    background: #0B3B0B;
+}
+
+.flag-algerie-right {
+    height: 100%;
+    width: 50%;
+    background: white;
+    position: absolute; right: 0; bottom: 0;
+}
+
+.flag-algerie-all {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute; bottom: 0;
+    z-index: 1;
+}
+
+.flag-algerie-center {
+    height: 350px;
+    width: 350px;
+    position: absolute; top: 185px;
+}
+
+.flag-algerie-inside-center {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.flag-algerie-circle {
+    height: 100%;
+    width: 100%;
+    background: #B40404;
+    border-radius: 50%;
+}
+
+.flag-algerie-circle2 {
+    height: 80%;
+    width: 80%;
+    background: #0B3B0B;
+    border-radius: 50%;
+    position: absolute; top: 10%; right: 0;
+}
+
+.flag-algerie-circle2-inside {
+    height: 100%;
+    width: 175px;
+    position: absolute; right: 0;
+    overflow: hidden;
+}
+
+.flag-algerie-circle3 {
+    height: 100%;
+    width: 300px;
+    background: white;
+    border-radius: 50%;
+    position: absolute; right: -10px;
+}
+
+.flag-algerie-star {
+    height: 174px;
+    width: 174px;
+    position: absolute; bottom: 53px; left: 0;
+    z-index: 1;
+}
+
+.algerie-star1 {
+    height: 0;
+    width: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 80px solid #B40404;
+    position: absolute; left: 10px; top: 18px;
+    transform: rotate(-54deg);
+}
+
+.algerie-star2 {
+    height: 0;
+    width: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 80px solid #B40404;
+    position: absolute; left: 10px; top: 70px;
+    transform: rotate(-126deg);
+}
+
+.algerie-star3 {
+    height: 0;
+    width: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 80px solid #B40404;
+    position: absolute; left: 68px; top: 0;
+    transform: rotate(22deg);
+}
+
+.algerie-star4 {
+    height: 0;
+    width: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 80px solid #B40404;
+    position: absolute; right: 37px; top: 50px;
+    transform: rotate(98deg);
+}
+
+.algerie-star5 {
+    height: 0;
+    width: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 80px solid #B40404;
+    position: absolute; right: 72px; top: 90px;
+    transform: rotate(166deg);
+}
+
+.center-stars {
+    height: 30px;
+    width: 30px;
+    background: #B40404;
+    position: absolute; top: 70px; left: 55px;
+}
+
+.monster {
+    height: 1000px;
+    width: 800px;
+    background: linear-gradient(white, 50%, black);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monster-height {
+    height: 1000px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.monster-head {
+    height: 600px;
+    width: 600px;
+    background: #FE2EC8;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.monster-eye {
+    height: 500px;
+    width: 500px;
+    background: white;
+    position: absolute; top: 70px; left: 60px;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+.monster-eye-green {
+    height: 400px;
+    width: 400px;
+    background :radial-gradient(#6b8e23, 80%, black);
+    border-radius: 50%;
+    position: absolute; top: 50px; left: 60px;
+}
+
+.monster-eye-black {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    background: #151515;
+    position: absolute; top: 50px; left: 80px;
+}
+
+.monster-eye-reflection1 {
+    height: 220px;
+    width: 220px;
+    background: white;
+    border-radius: 50%;
+    position: absolute; top: 10px; left: 10px;
+}
+
+.monster-eye-reflection2 {
+    height: 170px;
+    width: 170px;
+    background: white;
+    border-radius: 50%;
+    position: absolute; top: 80px; left: 260px;
+}
+
+.monster-eye-reflection3 {
+    height: 100px;
+    width: 100px;
+    background: white;
+    border-radius: 50%;
+    position: absolute; top: 280px; left: 80px;
+}
+
+.monster-body {
+    height: 500px;
+    width: 600px;
+    background: #FE2EC8;
+    position: absolute; bottom: 190px;
+    display: flex;
+    justify-content: center;
+}
+
+.monster-mouth-border {
+    height: 130px;
+    width: 480px;
+    position: absolute; top: 330px;
+    z-index: 3;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.monster-mouth {
+    height: 300px;
+    width: 490px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute; bottom: 0;
+    background: #610B38;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.monster-teeth {
+    height: 30px;
+    width: 480px;
+    background: white;
+    position: absolute; top: 0;
+    z-index: 1;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.monster-tongue {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute; top: 250px;
+    background: #6b8e23;
+}
+
+.monster-footer {
+    height: 200px;
+    width: 600px;
+    position: absolute; bottom: 0;
+}
+
+.monster-foot1 {
+    height: 170px;
+    width: 120px;
+    background: linear-gradient(#FE2EC8, 40%, #610B4B);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 70px;
+}
+
+.monster-foot2 {
+    height: 190px;
+    width: 120px;
+    position: absolute; left: 110px; top: 0;
+    background: linear-gradient(#FE2EC8, 40%, #610B4B);
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 80px;
+}
+
+.monster-foot3 {
+    height: 200px;
+    width: 160px;
+    position: absolute; left: 220px; top: 0;
+    background: linear-gradient(#FE2EC8, 40%, #610B4B);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom: 1px solid lightgrey;
+    z-index: 2;
+}
+
+.monster-foot4 {
+    height: 190px;
+    width: 120px;
+    position: absolute; left: 370px; top: 0;
+    background: linear-gradient(#FE2EC8, 40%, #610B4B);
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 60px;
+    z-index: 1;
+}
+
+.monster-foot5 {
+    height: 170px;
+    width: 120px;
+    background: linear-gradient(#FE2EC8, 40%, #610B4B);
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 40px;
+    position: absolute; left: 480px; top: 0;
+}
+
+.logo-bankal {
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    background: linear-gradient(#25fde9, 10%, white);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 0;
+}
+
+.bankal-clothing {
+    position: relative;
+    font-size: 50px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.logo-border {
+    height: 230px;
+    width: 450px;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo-top1 {
+    height: 30px;
+    width: 300px;
+    background: black;
+    position: absolute; left: 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 10px;
+    z-index: 10;
+}
+
+.logo-top2 {
+    height: 10px;
+    width: 40px;
+    background: black;
+    position: absolute; right: 105px; top: 40px;
+    border-top-right-radius: 30px;
+}
+
+.logo-top3 {
+    height: 30px;
+    width: 281px;
+    background: black;
+    position: absolute; left: 70px; top: 50px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 3px;
+    z-index: 10;
+}
+
+.logo-top4 {
+    height: 150px;
+    width: 30px;
+    background: black;
+    position: absolute; right: 350px; top: 50px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.logo-top5 {
+    height: 100px;
+    width: 30px;
+    background: black;
+    position: absolute; left: 0; top: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.logo-top6 {
+    height: 30px;
+    width: 360px;
+    background: black;
+    position: absolute; left: 30px; top: 100px;
+    z-index: 10;
+}
+
+.logo-top7 {
+    height: 75px;
+    width: 30px;
+    background: black;
+    position: absolute; right: 0px; bottom: 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 3px;
+    z-index: 10;
+}
+
+.logo-top8 {
+    height: 30px;
+    width: 270px;
+    background: black;
+    position: absolute; right: 30px; bottom: 0px;
+    z-index: 10;
+}
+
+.logo-top9 {
+    height: 50px;
+    width: 30px;
+    background: black;
+    position: absolute; right: 300px; bottom: 0px;
+    border-bottom-left-radius: 3px;
+}
+
+.logo-top10 {
+    height: 30px;
+    width: 270px;
+    background: black;
+    position: absolute; right: 60px; bottom: 50px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 3px;
+    z-index: 10;
+}
+
+.logo-round {
+    height: 35px;
+    width: 200px;
+    position: absolute; top: 129px; right: -85px;
+    transform: rotate(40deg);
+    overflow: hidden;
+}
+
+.logo-round-inside {
+    height: 150px;
+    width: 150px;
+    background: black;
+    border-radius: 50%;
+    position: absolute; top: 0;
+}
+
+.logo-round-white {
+    height: 35px;
+    width: 200px;
+    position: absolute; top: 168px; right: -70px;
+    transform: rotate(55deg);
+    overflow: hidden;
+    z-index: 0;
+}
+
+.logo-round-inside-white {
+    height: 150px;
+    width: 150px;
+    background: white;
+    border-radius: 50%;
+    position: absolute; top: 0;
+    z-index: -10;
+}
+
+.logo-round-top {
+    height: 40px;
+    width: 200px;
+    position: absolute; top: 10px; right: 25px;
+    transform: rotate(30deg);
+    overflow: hidden;
+}
+
+.logo-round-inside-top {
+    height: 150px;
+    width: 150px;
+    background: black;
+    border-radius: 50%;
+    position: absolute; top: 0;
+    z-index: -10;
+}
+
+.logo-round-top-white {
+    height: 40px;
+    width: 200px;
+    position: absolute; top: 43px; right: 47px;
+    transform: rotate(35deg);
+    overflow: hidden;
+    z-index: 0;
+}
+
+.logo-round-inside-top-white {
+    height: 150px;
+    width: 150px;
+    background: white;
+    border-radius: 50%;
+    position: absolute; top: 0;
+}
